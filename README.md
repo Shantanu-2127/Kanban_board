@@ -6,7 +6,8 @@ This is a React-based Kanban board application with user authentication, task an
 Demo
 Link to Live Demo
 
-Features
+Features:
+
 User Authentication: Secure user authentication system using [Authentication Provider/Service].
 
 Task Management: Create, edit, and delete tasks easily. Assign tasks to specific categories and track their progress.
