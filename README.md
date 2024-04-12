@@ -1,4 +1,4 @@
-## Kanban Board
+Kanban Board
 
 ## Overview
 This is a React-based Kanban board application with user authentication, task and category management, task labels, and search functionality. It allows users to organize tasks into categories and track their progress using the popular Kanban methodology.
