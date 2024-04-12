@@ -24,9 +24,9 @@ npm start
 Open http://localhost:3000 to view it in the browser.
 
 ## Usage
-Sign up or log in to start using the Kanban board.
-Create categories and tasks, assign labels, and move tasks between categories as they progress.
-Use the search bar to find specific tasks by title or label.
+- Sign up or log in to start using the Kanban board.
+- Create categories and tasks, assign labels, and move tasks between categories as they progress.
+- Use the search bar to find specific tasks by title or label.
 
 ## Technologies Used
 React
