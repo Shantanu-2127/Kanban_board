@@ -8,11 +8,12 @@ Link to Live Demo
 
 ## Features
 
-- Real-time data: Fetches the latest COVID-19 statistics from the disease.sh API.
-- Global and country-wise statistics: Displays global statistics as well as specific country statistics.
-- Interactive interface: Provides an intuitive and user-friendly interface to navigate and explore the data.
-- Data visualization: Presents the statistics in a visually appealing format using charts and graphs.
-- Responsive design: Ensures optimal viewing and functionality across various devices.
+- User Authentication: Secure user authentication system using [Authentication Provider/Service].
+- Task Management: Create, edit, and delete tasks easily. Assign tasks to specific categories and track their progress.
+- Category Management: Organize tasks into categories such as "To Do," "In Progress," and "Done."
+- Task Labels: Add labels to tasks for better categorization and filtering.
+- Search Functionality: Search for tasks by title and label to quickly find what you need.
+- Deployment: Deployed using Vercel for easy access and scalability.
 
 ## Installation
 Clone the repository:
