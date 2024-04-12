@@ -4,7 +4,7 @@ Kanban Board
 This is a React-based Kanban board application with user authentication, task and category management, task labels, and search functionality. It allows users to organize tasks into categories and track their progress using the popular Kanban methodology.
 
 ## Demo
-[Link to Live Demo](https://vercel.com/shantanu-2127s-projects/kanban-board-nugp/GSS3zNJTCqtr4H5Lm4gFaT93Wj3L)
+[Link to Live Demo]((https://kanban-board-nugp.vercel.app/))
 
 ## Features
 
