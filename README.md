@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+React Kanban Board
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+This is a React-based Kanban board application with user authentication, task and category management, task labels, and search functionality. It allows users to organize tasks into categories and track their progress using the popular Kanban methodology.
 
-## Available Scripts
+Demo
+Link to Live Demo
 
-In the project directory, you can run:
+Features
+User Authentication: Secure user authentication system using [Authentication Provider/Service].
+Task Management: Create, edit, and delete tasks easily. Assign tasks to specific categories and track their progress.
+Category Management: Organize tasks into categories such as "To Do," "In Progress," and "Done."
+Task Labels: Add labels to tasks for better categorization and filtering.
+Search Functionality: Search for tasks by title and label to quickly find what you need.
+Deployment: Deployed using Vercel for easy access and scalability.
 
-### `npm start`
+Installation
+Clone the repository:
+https://github.com/Shantanu-2127/Kanban_board.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Install dependencies:
+cd Kanban_board
+npm install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Start the development server:
+npm start
 
-### `npm test`
+Open http://localhost:3000 to view it in the browser.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Usage
+Sign up or log in to start using the Kanban board.
+Create categories and tasks, assign labels, and move tasks between categories as they progress.
+Use the search bar to find specific tasks by title or label.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Technologies Used
+React
+[Other libraries/frameworks/tools used]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contributing
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you find any bugs or want to suggest new features.
