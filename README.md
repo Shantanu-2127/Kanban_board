@@ -22,6 +22,7 @@ https://github.com/Shantanu-2127/Kanban_board.git
 
 ## Start the development server:
 npm start
+
 Open http://localhost:3000 to view it in the browser.
 
 ## Usage
