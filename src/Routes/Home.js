@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import "./Home.css";
-import { Link } from "react-router-dom";
 import Board from "../Components/Board/Board";
 import Edit from "../Components/Editable/Edit";
 import Navbar from "../Components/Navbar/Navbar";
 import swal from "sweetalert";
+import { useNavigate } from "react-router-dom";
 
 export default function Home() {
+  const navigate = useNavigate();
   const user = localStorage.getItem("Curr_user");
   const [boards, setBoards] = useState(
     JSON.parse(localStorage.getItem(user)) || []
@@ -145,7 +146,8 @@ export default function Home() {
 
   useEffect(() => {
     if (!user) {
-      swal("Access Denied !!!", "", "error");
+      swal("Access Denied !!!", "Please Login to access board", "info");
+      navigate("/login")
     } else {
       localStorage.setItem(user, JSON.stringify(boards));
     }
@@ -153,12 +155,7 @@ export default function Home() {
 
   return (
     <>
-      {!user ? (
-        <div>
-          <h1>Please login to Access Board</h1>
-          <Link to="/login">Click here...</Link>
-        </div>
-      ) : (
+      {!user ? ("") : (
         <div className="home container-fluid px-2">
           <div className="home_navbar">
             <Navbar />
