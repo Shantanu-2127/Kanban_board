@@ -70,8 +70,8 @@
     border-radius: 3px;
     box-shadow: 1px 0px 20px rgba(0, 0, 0, 0.12);
     padding: 1%;
-    width: 120px !important;
-    cursor: default;
+    width: 120px;
+    cursor: pointer;
     height: 36px;
   }
 

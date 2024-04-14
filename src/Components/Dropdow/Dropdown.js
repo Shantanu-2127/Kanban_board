@@ -23,7 +23,8 @@ export default function Dropdown(props) {
     style={{
         position:"absolute",
         top: "100%",
-        right: "0"
+        right: "0",
+        zIndex: "10"
     }}
     >
         {props.children}

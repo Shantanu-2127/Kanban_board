@@ -156,7 +156,7 @@ export default function Home() {
   return (
     <>
       {!user ? ("") : (
-        <div className="home container-fluid px-2">
+        <div className="home container-fluid">
           <div className="home_navbar">
             <Navbar />
           </div>
