@@ -50,7 +50,7 @@ export default function Login() {
       if (isPasswordMatch) {
         swal("Login Successful", "success", "success");
         localStorage.setItem("Curr_user", user.email)
-        navigate("/board");
+        navigate("/");
 
       } else {
         swal("Invalid email or password", "error", "error");
@@ -129,7 +129,7 @@ export default function Login() {
                       <p className="mb-5 pb-lg-2" style={{ color: "#393f81" }}>
                         Don't have an account?{" "}
                         <a href="#!" style={{ color: "#393f81" }}>
-                          <Link to="/">Register here</Link>
+                          <Link to="/signup">Register here</Link>
                         </a>
                       </p>
                     </form>

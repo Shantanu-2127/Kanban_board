@@ -3,7 +3,6 @@ import "./Home.css";
 import Board from "../Components/Board/Board";
 import Edit from "../Components/Editable/Edit";
 import Navbar from "../Components/Navbar/Navbar";
-import swal from "sweetalert";
 import { useNavigate } from "react-router-dom";
 
 export default function Home() {
@@ -146,8 +145,7 @@ export default function Home() {
 
   useEffect(() => {
     if (!user) {
-      swal("Access Denied !!!", "Please Login to access board", "info");
-      navigate("/login")
+      navigate("/signup")
     } else {
       localStorage.setItem(user, JSON.stringify(boards));
     }
