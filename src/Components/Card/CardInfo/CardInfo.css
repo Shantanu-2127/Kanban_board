@@ -1,11 +1,20 @@
 .cardinfo{
-    padding: 30px;
+    padding: 10px;
     background-color: #fff;
     display: flex;
     flex-direction: column ;
-    gap: 30px;
-    width: 600px;
+    gap: 10px;
+    max-width: 100%;
+    position: relative;
+    
 }
+
+@media Screen and (min-width: 400px) {
+    .cardinfo{
+        width: 600px;
+    }
+}
+
 
 .cardinfo_box{
     display: flex;
@@ -19,6 +28,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
+
 
 }
 

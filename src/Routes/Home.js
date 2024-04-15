@@ -5,6 +5,7 @@ import Edit from "../Components/Editable/Edit";
 import Navbar from "../Components/Navbar/Navbar";
 import { useNavigate } from "react-router-dom";
 
+
 export default function Home() {
   const navigate = useNavigate();
   const user = localStorage.getItem("Curr_user");
@@ -164,7 +165,8 @@ export default function Home() {
               <div class="form-outline mt-2" data-mdb-input-init>
                     <input type="search" id="form1" class="form-control" placeholder="Search by title or label..." aria-label="Search" value={searchQuery}
                   onChange={handleSearchChange}/>
-              </div>  
+              </div> 
+              
               </div>
               {(searchQuery.trim() === "" ? boards : searchResults).map(
                 (item) => (

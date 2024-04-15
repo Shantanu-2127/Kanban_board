@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import Modal from "../../Modal/Modal";
 import "./CardInfo.css";
-import { Calendar, CheckSquare, List, Tag, Trash, Type } from "react-feather";
+import { Calendar, CheckSquare, List, Tag, Trash, Type, X } from "react-feather";
 import Edit from "../../Editable/Edit";
 import Chips from "../../Chips/Chips";
+
 
 function CardInfo(props) {
   const colors = [
@@ -91,6 +92,8 @@ function CardInfo(props) {
     <div>
       <Modal onClose={() => props.onClose()}>
         <div className="cardinfo">
+          <div style={{display:"flex", justifyContent:"flex-end"}}><X style={{cursor:"pointer"}} onClick={() => props.onClose ? props.onClose() : ""}/></div>
+         
           <div className="cardinfo_box">
             <div className="cardinfo_box_title">
               <Type />
